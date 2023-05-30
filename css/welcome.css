@@ -1,0 +1,28 @@
+.welcome {
+  block-size: 100vh;
+  display: flex;
+  /* align-self: center; */
+}
+
+.welcome-content {
+  text-align: center;
+  align-self: center;
+  max-inline-size: 56.25rem;
+  margin: auto;
+}
+
+.welcome-content p:first-child {
+  font: var(--headline5);
+  font-weight: normal;
+}
+
+.welcome-content p:last-of-type {
+  font: var(--headline5);
+}
+
+@media screen and (min-width:1024px) {
+  .welcome-content p:first-child {
+    font: var(--headline4);
+    font-weight: normal;
+  }
+}

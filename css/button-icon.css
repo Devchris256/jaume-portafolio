@@ -1,0 +1,15 @@
+.button-icon {
+  padding-inline-start: 0.625rem;
+  padding-inline-end: 0.625rem;
+  padding-block-start: 0.625rem;
+  padding-block-end: 0.625rem;
+  background: var(--white);
+  border: 0.125rem solid var(--primary);
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+.button-icon img {
+  vertical-align: middle;
+  max-inline-size: 100%;
+}

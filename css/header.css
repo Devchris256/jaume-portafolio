@@ -1,4 +1,10 @@
 .header {
+  backdrop-filter: blur(0.5rem);
+  position: sticky;
+  inset-block-start: 0;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;

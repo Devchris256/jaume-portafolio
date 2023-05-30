@@ -12,25 +12,194 @@
 </head>
 <body>
   <header class="header">
-    <a href="/" aria-current="page">
-      <img src="./img/logo.png" width="69" height="19" alt="Logo de Jaume">
-    </a>
-    <nav class="menu" aria-label="Navigation">
-      <ul>
-        <li>
-          <a href="#main" class="is-active">Hola</a>
-        </li>
-        <li>
-          <a href="#proyect">proyectos</a>
-        </li>
-        <li>
-          <a href="#contac">hablemos</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="button" aria-label="descargar curriculum">
-      curriculum
-    </button>
+    <div class="wrapper">
+      <div class="header-content">
+        <a href="/" aria-current="page">
+          <img src="./img/logo.png" width="69" height="19" alt="Logo de Jaume">
+        </a>
+        <nav class="menu" aria-label="Navigation">
+          <ul>
+            <li>
+              <a href="#main" class="is-active">Hola</a>
+            </li>
+            <li>
+              <a href="#proyect">proyectos</a>
+            </li>
+            <li>
+              <a href="#contac">hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button" aria-label="descargar curriculum">
+          curriculum
+        </button>
+      </div>
+    </div>
   </header>
+  <div class="wrapper">
+    <div class="hero" aria-labelledby="region1" role="region" id="main">
+      <div class="hero-image">
+        <img src="./img/jaume.png" width="328" height="330" alt="Fotografia de Jaume">
+      </div>
+      <div class="hero-description">
+        <h1 class="hero-title" id="region1">
+          <p>¡Hola a todos!</p>
+          <p>Soy Jaume</p>
+        </h1>
+        <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+        <div class="social">
+          <a target="_blank" href="tel:922054874" class="button-icon" aria-label="contactar por llamada a Jaume">
+            <img src="./icon/icon-phone.svg" alt="icono de contacto: llamada">
+          </a>
+          <a target="_blank" href="mailto:atochepascual.saraichristina@gmail.com" class="button-icon" aria-label="contactar por correo a Jaume">
+            <img src="./icon/icon-mail.svg" alt="icono de contacto: correo">
+          </a>
+          <a target="_blank" href="https://www.instagram.com/chris.ap03/" class="button-icon" aria-label="contactar por instagram a Jaume">
+            <img src="./icon/icon-instagram.svg" alt="icono de contacto: instagram">
+          </a>
+          <a target="_blank" href="https://twitter.com/pascual_atoche" class="button-icon" aria-label="contactar por twitter a Jaume">
+            <img src="./icon/icon-twitter.svg" alt="icono de contacto: twitter">
+          </a>
+          <a target="_blank" href="https://github.com/Devchris256/jaume-portafolio" class="button-icon"
+            aria-label="contactar por github a Jaume">
+            <img src="./icon/icon-github.svg" alt="icono de contacto: github">
+          </a>
+        </div>
+        <button class="button" aria-label="Descargar curriculum">
+          descargar curriculum
+        </button>
+      </div>
+    </div>
+    <section class="welcome" aria-label="welcome">
+      <div class="welcome-content">
+        <p>A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+        <p>Aquí hay algunos que me gustaría compartir.</p>
+        <a href="#proyect" aria-label="enlace direccionando a proyectos">
+          <img src="./icon/arrow-down.svg" width="80" height="80" alt="Flecha indicando hacia abajo">
+        </a>
+      </div>
+    </section>
+    <section class="proyect" aria-labelledby="region2" id="proyect">
+      <div class="proyect-image">
+        <img src="./img/mackbook.png" alt="Demo en mackbook del proyecto Leonidasesteban.com">
+      </div>
+      <div class="proyect-description">
+        <a href="#" class="title" id="region2">Leonidasesteban.com</a>
+        <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.</p>
+        <div class="proyect-buttons">
+          <a class="button is-secundary" aria-label="Ver codigo del proyecto Leonidasesteban.com">
+            ver codigo
+          </a>
+          <a class="button" aria-label="ver proyecto Leonidasesteban.com">ver proyecto</a>
+        </div>
+      </div>
+    </section>
+    <section class="testimony" aria-label="testimonio de Leo">
+      <div class="testimony-content">
+        <img src="./img/user-leo.png" width="64" height="64" alt="Perfil de usuario de Leo">
+        <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les
+        llevó 1,5 meses ".</p>
+        <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+      </div>
+    </section>
+    <section class="proyect" aria-labelledby="region3">
+      <div class="proyect-image">
+        <img src="./img/ipad.png" alt="Demo en ipa del proyecto Marvol">
+      </div>
+      <div class="proyect-description">
+        <a href="#" class="title" id="region3">MARVOL</a>
+        <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y
+        más oficiales de Marvol.</p>
+        <div class="proyect-buttons">
+          <a class="button is-secundary" aria-label="Ver codigo del proyecto Marvol">
+            ver codigo
+          </a>
+          <a class="button" aria-label="ver proyecto Marvol">ver proyecto</a>
+        </div>
+      </div>
+    </section>
+    <section class="testimony" aria-label="testimonio de Jason">
+      <div class="testimony-content">
+        <img src="./img/user-jason.png" width="64" height="64" alt="Perfil de usuario de jason">
+        <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".</p>
+        <p>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+      </div>
+    </section>
+    <section class="proyect" aria-labelledby="region4">
+      <div class="proyect-image">
+        <img src="./img/iphone.png" alt="Demo en iphone-x del proyecto Netnet">
+      </div>
+      <div class="proyect-description">
+        <a href="#" class="title" id="region4">NETNET</a>
+        <p>Películas y series ilimitadas y mucho más.
+        Disfruta donde quieras. Cancela cuando quieras..</p>
+        <div class="proyect-buttons">
+          <a class="button is-secundary" aria-label="Ver codigo del proyecto Netnet">
+            ver codigo
+          </a>
+          <a class="button" aria-label="ver proyecto Netnet">ver proyecto</a>
+        </div>
+      </div>
+    </section>
+    <section class="testimony" aria-label="testimony de marco">
+      <div class="testimony-content">
+        <img src="./img/user-marco.png" width="64" height="64" alt="Perfil de usuario de Leo">
+        <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos".</p>
+        <p>MARCO CORTEZ / NETNET</p>
+      </div>
+    </section>
+    <form action="" class="form">
+      <div class="form-content" role="form">
+        <h2 class="title">HABLEMOS</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+        <div class="name">
+          <label for="name">Nombre Completo</label>
+          <input required type="text" id="name" name="name" placeholder="Juan">
+        </div>
+        <div class="email">
+          <label for="email">Correo electronico</label>
+          <input required type="email" id="email" name="email" placeholder="Juan@gmail.com">
+        </div>
+        <div class="message">
+          <label for="message">Mensaje</label>
+          <textarea required name="message" id="message" cols="30" rows="7"></textarea>
+        </div>
+        <button class="button" type="submit" aria-label="Enviar Mensaje">Enviar mensaje</button>
+      </div>
+    </form>
+    <footer class="footer" id="contac">
+      <div class="footer-content">
+        <a href="/" aria-current="page" class="footer-logo">
+          <img src="./img/logo.png" width="69" height="19" alt="Logo de Jaume">
+        </a>
+        <div class="social">
+          <a target="_blank" href="tel:922054874" class="button-icon" aria-label="contactar por llamada a Jaume">
+            <img src="./icon/icon-phone.svg" alt="icono de contacto: llamada">
+          </a>
+          <a target="_blank" href="mailto:atochepascual.saraichristina@gmail.com" class="button-icon"
+            aria-label="contactar por correo a Jaume">
+            <img src="./icon/icon-mail.svg" alt="icono de contacto: correo">
+          </a>
+          <a target="_blank" href="https://www.instagram.com/chris.ap03/" class="button-icon"
+            aria-label="contactar por instagram a Jaume">
+            <img src="./icon/icon-instagram.svg" alt="icono de contacto: instagram">
+          </a>
+          <a target="_blank" href="https://twitter.com/pascual_atoche" class="button-icon"
+            aria-label="contactar por twitter a Jaume">
+            <img src="./icon/icon-twitter.svg" alt="icono de contacto: twitter">
+          </a>
+          <a target="_blank" href="https://github.com/Devchris256/jaume-portafolio" class="button-icon"
+            aria-label="contactar por github a Jaume">
+            <img src="./icon/icon-github.svg" alt="icono de contacto: github">
+          </a>
+        </div>
+        <div class="footer-copyright">
+          <p>Hecho con ♡ para Leo</p>
+          <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>

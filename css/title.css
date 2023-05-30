@@ -1,0 +1,11 @@
+.title {
+  font: var(--headline5);
+  color: var(--white);
+  background: var(--primary);
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+  padding-block-start: 0.25rem;
+  padding-block-end: 0.25rem;
+  box-shadow: -0.25em 0.25rem 0 var(--white);
+  text-decoration: none;
+}
