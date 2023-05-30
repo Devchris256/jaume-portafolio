@@ -1,0 +1,31 @@
+@import './menu.css';
+@import './header.css';
+@import './button.css';
+
+:root {
+  font-size: 16px;
+  --fontbase: 'Poppins', sans-serif;
+  --headline1: bold 5.9375rem/9.5625rem var(--fontbase);
+  --headline2: bold 3.6875rem/5.9375rem var(--fontbase);
+  --headline3: bold 3rem/4.8125rem var(--fontbase);
+  --headline5: bold 2.125rem/3.4375rem var(--fontbase);
+  --headline5: bold 1.5rem/2.375rem var(--fontbase);
+  --body1: 1rem/1.5rem var(--fontbase);
+  --body2: 0.875rem/1.375rem var(--fontbase);
+  --button: bold 0.875rem/1.375rem var(--fontbase);
+  --caption: 0.75rem/1.1875rem var(--fontbase);
+  --primary: #310A90;
+  --green: #42E2B8;
+  --white: #FFFFFF;
+  --backgroundOrange: linear-gradient(135deg, #FAD7A1 0%, #E96D71 100%);
+  --backgrounpurple: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+body {
+  font: var(--body1);
+  color: var(--primary);
+  background: var(--backgrounpurple);
+  min-block-size: 100vh;
+  margin: 0;
+}
