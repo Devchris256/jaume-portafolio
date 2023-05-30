@@ -1,5 +1,15 @@
+@import './footer.css';
+@import './form.css';
+@import './proyect.css';
+@import './title.css';
+@import './testimony.css';
+@import './welcome.css';
+@import './wrapper.css';
+@import './hero.css';
 @import './menu.css';
 @import './header.css';
+@import './social.css';
+@import './button-icon.css';
 @import './button.css';
 
 :root {
@@ -8,7 +18,7 @@
   --headline1: bold 5.9375rem/9.5625rem var(--fontbase);
   --headline2: bold 3.6875rem/5.9375rem var(--fontbase);
   --headline3: bold 3rem/4.8125rem var(--fontbase);
-  --headline5: bold 2.125rem/3.4375rem var(--fontbase);
+  --headline4: bold 2.125rem/3.4375rem var(--fontbase);
   --headline5: bold 1.5rem/2.375rem var(--fontbase);
   --body1: 1rem/1.5rem var(--fontbase);
   --body2: 0.875rem/1.375rem var(--fontbase);
